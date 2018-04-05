@@ -49,7 +49,122 @@ a:hover{
 	color:#191970;
 	font-weight: bold;
 }
-
+/* LOGIN */
+.login{
+    text-align: center;
+    align-content: center;
+    width: 100%; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+    color: inherit;
+    background-color: #ffffff;
+}
+.login-title{
+	font-size: 24;
+	text-align: center;
+}
+.login-label{
+    text-align: center;
+    font-size: 15;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.login-input{
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    font-size: 18;
+    margin-bottom: 20px;
+}
+.login-submit{
+    background-color: #4CAF50;
+    border: none; 
+    color: white;
+    padding: 15px 30px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.login-submit:hover{
+    background-color: #409943;
+    border: none; 
+    color: white;
+    padding: 15px 30px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.register-here{
+    color: #2f80db;
+}
+.register-submit{
+    background-color: #4CAF50;
+    border: none; 
+    color: white;
+    padding: 15px 30px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.register-submit:hover{
+    background-color: #409943;
+    border: none; 
+    color: white;
+    padding: 15px 30px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* GRID SYSTEM */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-0 {width: 4.15%;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-3-5 {width: 31%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-10-percent {width: 10%}
+.col-20-percent {width: 20%}
+.float-right{
+    float: right;
+    display: flex;    
+    justify-content: center;  /**align horizontal   */
+    align-items: center;  /**align vertical  */
+}
+.center{
+    text-align: center;
+    align-content: center;
+}
 /* KONTEN */
 
 
